@@ -1,5 +1,5 @@
 import java.util.*;
-class Estimate_num
+class Estim_num
 {
     public void start()
     {
@@ -25,22 +25,22 @@ class Estimate_num
             {
                 if(l-val > 25)
                 {
-                    System.out.println("Your guess is extremely High!!!\n");
+                    System.out.println("Your guess is extremely High!\n");
                 }
                 else
                 {
-                    System.out.println("Your guess is nearly high!!!\n");
+                    System.out.println("Your guess is nearly high!\n");
                 }
             }
             else
             {
                 if(val-l > 25)
                 {
-                    System.out.println("Your guess is extremely low!!!\n");
+                    System.out.println("Your guess is extremely low!\n");
                 }
                 else
                 {
-                    System.out.println("Your guess is nearly low!!!\n");
+                    System.out.println("Your guess is nearly low!\n");
                 }
             }
             prize = prize - 10; //decreasing reward for every wrong guess
@@ -63,7 +63,7 @@ public class Numguess {
         int option = sc.nextInt();
         if(option == 1)
         {
-            Estimate_num g = new Estimate_num();
+            Estimate_num g = new Estim_num();
             g.start();
             System.out.println("Do you want to play again: Yes/No\n");
             String a = sc.next();
