@@ -63,7 +63,7 @@ public class Numguess {
         int option = sc.nextInt();
         if(option == 1)
         {
-            Estimate_num g = new Estim_num();
+            Estim_num g = new Estim_num();
             g.start();
             System.out.println("Do you want to play again: Yes/No\n");
             String a = sc.next();
